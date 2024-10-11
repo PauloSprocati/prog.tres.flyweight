@@ -12,7 +12,7 @@ public class Forma {
     @Override
     public String toString() {
         return "Forma{" +
-                "cor=" + cor +
+                "cor=" + cor.getNome() +
                 ", posicao='" + posicao + '\'' +
                 ", tamanho=" + tamanho +
                 '}';
