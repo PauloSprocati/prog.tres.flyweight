@@ -5,7 +5,7 @@ public class FormaManager {
     private List<Forma> formas;
     private CorFactory corFactory;
 
-    public FormaManager(List<Forma> formas, CorFactory corFactory) {
+    public FormaManager() {
         formas = new ArrayList<>();
         corFactory = new CorFactory();
     }
